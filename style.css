@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+html {
+    background-color: white;
+    color: white;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /* ADD IMAGE FOR LINE 18 */
+    background: url("./images/Webpage\ filler\ image\ 1920x1080.jpg");
+    background-size: cover;
+}
+
+.container{
+    padding: 3rem 12rem;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+}
+
+.logo {
+    flex: 2;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo>b{
+    font-size: 90px;
+}
+
+.under{
+    float: 2;
+}
+
+.menu {
+    flex: 1;
+    color: white;
+    font-size: 15px;
+}
+
+.menu > ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu>ul>li{
+    padding: 0rem 1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu .btn {
+    background-color: #ff3cBB;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    padding-top: 6rem;
+}
+
+.banner {
+    flex: 1;
+    padding-top: 5rem;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+    font-weight: medium;
+}
+
+.btn-rounded {
+    padding: 0.7rem;
+    background-color: #ff3cBB;
+    border-radius: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#link{
+    color: #ff3cBB;
+    text-decoration: underline;
+    margin-left: 1rem;
+    font-size: 15px;
+}
